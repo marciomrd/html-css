@@ -1,0 +1,188 @@
+/*Regras Gerais*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+/*Estilos Gerais*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #39CF7C;
+    margin: 0px;
+}
+
+header {
+    color: #ffffff;
+    background-image: linear-gradient(#39CF7C, #2B995B, #195C37);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.441);
+}
+
+header>h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+main {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    min-width: 250px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.458);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0px;
+    line-height: 1.5em;
+    min-width: 250px;
+    max-width: 800px;
+}
+
+main strong {
+    color: #2B995B;
+    font-weight: bold;
+}
+
+article {
+    margin: auto;
+    padding: 10px;
+}
+
+article > abbr > picture > img {
+    width: 100%;
+}
+
+article > aside {
+    background-color: #39cf7c51;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.200);
+}
+
+article > aside > header {
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+article > aside > header > h3 {
+    margin: 0px;
+    padding: 0px;
+    text-indent: 10px;
+}
+
+article > aside > p {
+    margin: 10px;
+}
+
+article > aside > ul {
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+    columns: 2;
+    margin: 0px 100px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #195C37;
+    padding: 10px 0px 10px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+/*ID e Classes*/
+
+p#slogan {
+    text-align: center;
+    padding: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+nav#menu {
+    padding: 10px;
+    margin: 0px;
+    background-color: #195C37;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.198);
+}
+
+nav#menu > a {
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+nav#menu > a:hover {
+    background-color: #2B995B;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+h2#titulo-principal {
+    font-family: 'Idroid', sans-serif;
+    font-size: 30px;
+    color: #195C37;
+}
+
+h2.subtitulo {
+    background-image: linear-gradient(90deg, #39cf7c6d, #ffffff);
+    font-family: 'Idroid', sans-serif;
+    color: #195C37;
+    text-indent: 10px;
+}
+
+div.video {
+    position: relative;
+    background-color: #195C37;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+a.link {
+    text-decoration: none;
+    color: #2B995B;
+    font-weight: bold;
+}
+
+a.link:hover {
+    text-decoration: underline;
+    background-image: linear-gradient(90deg, #39cf7c6d, #ffffff);
+}
+
+a.link::after {
+    content: '\00A0\🔗';
+}
+
+img.pequena {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}

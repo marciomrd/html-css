@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  1em;
+    background-color: whitesmoke;
+    text-align: justify;
+}
+header {
+    border: 5px solid black;
+    margin: 10px;
+}
+header > nav {
+    border: 5px solid black;
+    margin: 10px;
+}
+main{
+    border: 5px solid black;
+    margin: 10px;
+}
+section {
+    border: 5px solid black;
+    margin: 20px;
+}
+#introducao{
+    border: 5px solid black;
+    margin: 10px;
+}
+#desenvolvimento{
+    border: 5px solid black;
+    margin: 10px;
+}
+#desenvolvimento > aside {
+    border: 5px solid black;
+    margin: 30px 30px;
+}
+aside {
+    border: 5px solid black;
+    margin: 50px;
+}
+footer {
+    border: 5px solid black;
+    margin: 10px;
+}
