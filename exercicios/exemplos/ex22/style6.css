@@ -1,15 +1,19 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    height: 100vh;
+    /*background-color: black;
     background-image:  url('imagens/wallpaper002.jpg');
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;*/
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     border-radius: 15px;
     border: 1px solid darkblue;
     margin: auto;
