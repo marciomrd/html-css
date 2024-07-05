@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+#container {
+    position: relative;
+    height: 96vh;
+    background-color: purple;
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    padding: 10px;
+}
+#conteudo {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+
+    /*Usar right/bottom no lugar de left/top permite a utilização 
+    de medidas positivas na propriedade transform com a função translate, 
+    mas pode ser utilizado left/top traquilamente com porcentagem negativa
+    para os valores de translate que vai gerar o mesmo resultado */
+}
