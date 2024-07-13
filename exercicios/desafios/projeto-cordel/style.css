@@ -4,63 +4,103 @@
 
 :root {
     --bgContent: #fae3c6;
+    --bgStandard: #a9a9a9;
+    --bgHeaderFoot: #000000;
     --colorText1: #000000;
     --colorText2: #ffffff;
     --fontStandard: Verdana, Tahoma, sans-serif;
     --fontContent: "Sriracha", cursive;
     --fontHeader: "Passion One", sans-serif;
 }
+
 * {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
+
 body {
     min-height: 100vh;
     font-family: var(--fontStandard);
-    background-color: #a9a9a9;
+    background-color: var(--bgStandard);
 }
+
 header {
     font-family: var(--fontStandard);
-    background-color: #000000;
+    background-color: var(--bgHeaderFoot);
     color: var(--colorText2);
     text-align: center;
 }
-header > h1 {
+
+header>h1 {
     padding-top: 50px;
     font-family: var(--fontHeader);
     font-size: 10vw;
-    /*font-variant: small-caps;*/
+    font-variant: small-caps;
 }
-header > p {
+
+header>p {
     padding-bottom: 50px;
 }
+
+p {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--colorText2);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--bgHeaderFoot);
+    color: var(--colorText2);
+    text-align: center;
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+footer>p {
+    padding: 5px;
+}
+
 section {
     font-family: var(--fontContent);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    
+
 }
+
 section.content {
     background-color: var(--bgContent);
-    color: black;
+    color: var(--colorText1);
 }
+
 section.image {
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: none;
 }
+
 section.image#img01 {
     background-image: url('imagens/background001.jpg');
     background-position: right center;
 }
+
 section.image#img02 {
     background-image: url('imagens/background002.jpg');
     background-position: right center;
 }
-section.image > aside {
-    background-color: rgba(0, 0, 0, 0.153);
+
+section.image>aside {
+    background-color: #00000054;
     color: var(--colorText2);
     width: 300px;
     padding: 20px;
