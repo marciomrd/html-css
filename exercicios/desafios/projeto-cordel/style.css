@@ -4,6 +4,8 @@
 
 :root {
     --bgContent: #fae3c6;
+    --colorText1: #000000;
+    --colorText2: #ffffff;
     --fontStandard: Verdana, Tahoma, sans-serif;
     --fontContent: "Sriracha", cursive;
     --fontHeader: "Passion One", sans-serif;
@@ -16,12 +18,12 @@
 body {
     min-height: 100vh;
     font-family: var(--fontStandard);
-    background-color: darkgray;
+    background-color: #a9a9a9;
 }
 header {
     font-family: var(--fontStandard);
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: var(--colorText2);
     text-align: center;
 }
 header > h1 {
@@ -47,6 +49,7 @@ section.content {
 }
 section.image {
     background-size: cover;
+    background-attachment: fixed;
 }
 section.image#img01 {
     background-image: url('imagens/background001.jpg');
@@ -57,6 +60,8 @@ section.image#img02 {
     background-position: right center;
 }
 section.image > aside {
-    background-color: rgba(0, 0, 0, 0.118);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.153);
+    color: var(--colorText2);
+    width: 300px;
+    padding: 20px;
 }
