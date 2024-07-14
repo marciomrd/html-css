@@ -75,7 +75,6 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-
 }
 
 section.content {
@@ -87,6 +86,7 @@ section.image {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: none;
+    box-shadow: inset 6px 6px 13px 0px #00000070;
 }
 
 section.image#img01 {
