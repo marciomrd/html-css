@@ -19,6 +19,7 @@
     font-size: 1em;
 }
 
+html,
 body {
     min-height: 100vh;
     font-family: var(--fontStandard);
@@ -32,14 +33,14 @@ header {
     text-align: center;
 }
 
-header>h1 {
+header > h1 {
     padding-top: 50px;
     font-family: var(--fontHeader);
     font-size: 10vw;
     font-variant: small-caps;
 }
 
-header>p {
+header > p {
     padding-bottom: 50px;
 }
 
@@ -55,18 +56,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-footer {
-    background-color: var(--bgHeaderFoot);
-    color: var(--colorText2);
-    text-align: center;
-    padding: 10px;
-    font-variant: small-caps;
-}
-
-footer>p {
-    padding: 5px;
 }
 
 section {
@@ -99,9 +88,21 @@ section.image#img02 {
     background-position: right center;
 }
 
-section.image>aside {
+section.image > aside {
     background-color: #00000054;
     color: var(--colorText2);
     width: 300px;
     padding: 20px;
+}
+
+footer {
+    background-color: var(--bgHeaderFoot);
+    color: var(--colorText2);
+    text-align: center;
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+footer > p {
+    padding: 5px;
 }
