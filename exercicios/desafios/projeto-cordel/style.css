@@ -64,6 +64,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-size: 2.9vw;
 }
 
 section.content {
@@ -91,8 +92,8 @@ section.image#img02 {
 section.image > aside {
     background-color: #00000054;
     color: var(--colorText2);
-    width: 300px;
-    padding: 20px;
+    display: inline-block;
+    padding: 30px;
 }
 
 footer {
