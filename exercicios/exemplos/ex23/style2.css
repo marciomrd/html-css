@@ -8,6 +8,14 @@ table {
     border-collapse: collapse;
 }
 
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #d3d3d3;
+    border: 1px solid #000000;
+}
+
 thead,
 tfoot {
     background-color: #808080;
