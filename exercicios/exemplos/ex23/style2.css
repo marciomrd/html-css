@@ -22,6 +22,10 @@ tfoot {
     color: #ffffff;
 }
 
+tbody > tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
 th,
 td {
     border: 1px solid #000000;
