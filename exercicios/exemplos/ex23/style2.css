@@ -5,6 +5,7 @@ body {
 }
 
 table {
+    position: relative;
     border-collapse: collapse;
 }
 
@@ -14,6 +15,12 @@ caption {
     padding: 10px;
     background-color: #d3d3d3;
     border: 1px solid #000000;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: #808080;
 }
 
 thead,
