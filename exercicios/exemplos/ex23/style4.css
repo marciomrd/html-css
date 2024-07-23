@@ -3,11 +3,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 table {
     width: 600px;
     border-collapse: collapse;
 }
-th , td {
+
+caption {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+th,
+td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
