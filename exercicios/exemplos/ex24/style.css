@@ -1,6 +1,42 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
 iframe {
-    width: 700px;
+    display: block;
+    margin: auto;
+    width: 600px;
     height: 300px;
 }
