@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/images/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: lightgray;
+}
+
+div {
+    margin: auto;
+    padding: 20px;
+}
