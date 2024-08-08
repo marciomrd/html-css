@@ -43,11 +43,11 @@ iframe#screen {
     height: 471px;
 }
 
-section#social {
+nav#social {
     text-align: left;
 }
 
-section#social img {
+nav#social img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -55,7 +55,7 @@ section#social img {
     box-sizing: border-box;
 }
 
-section#social img:hover {
+nav#social img:hover {
     border: 2px solid rgba(245, 245, 245, 0.550);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.550);
     transform: translate(-3px,-3px);
