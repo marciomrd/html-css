@@ -1,21 +1,32 @@
 @charset "UTF-8";
 
-body {
-    position: relative;
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('/images/fundo-madeira.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: lightgray;
-    height: 97.60vh;
 }
 
-div#iphone {
-    position: absolute;
-    background-image: url('/images/frame-iphone.png');
-    background-repeat: no-repeat;
+html , body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+body {
+    background: url('/images/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
-    height: 94vh;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#phone {
+    position: absolute;
+    background: url('/images/frame-iphone.png') no-repeat;
+    background-size: cover;
     width: 300px;
     height: 600px;
     bottom: 50%;
