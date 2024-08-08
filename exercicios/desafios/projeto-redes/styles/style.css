@@ -23,13 +23,21 @@ main {
     height: 100vh;
 }
 
-#phone {
+section#phone {
     position: absolute;
     background: url('/images/frame-iphone.png') no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 600px;
+    width: 311px;
+    height: 627px;
     bottom: 50%;
     right: 50%;
     transform: translate(50%, 50%);
+}
+
+iframe#screen {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
