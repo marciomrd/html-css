@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Formulário do Aluno</h1>
+
+    <form action="cadastro.php" autocomplete="on" method="get">
+
+        <p>
+            <label for="iname">Nome:</label>
+            <input type="text" name="name" id="iname" required maxlength="30" autocomplete="name" placeholder="Digite o nome completo">
+        </p>
+
+        <p>
+            <label for="iaverage">Média:</label>
+            <input type="number" name="average" id="iaverage" value="0" min="0" max="10" step="0.5" required>
+        </p>
+
+        <p>
+            <label for="idate">Data da Prova:</label>
+            <input type="date" name="date" id="idate" required>
+        </p>
+
+        <p>
+            <label for="ihour">Hora da Prova:</label>
+            <input type="time" name="hour" id="ihour" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
