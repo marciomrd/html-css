@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        
+        <legend>Informações de Contato</legend>
+
+        <p>
+            <label for="iname">Nome:</label>
+            <input type="text" name="name" id="iname" required minlength="5" maxlength="20" placeholder="Nome Completo">
+        </p>
+
+        <p>
+            <label for="imail"> E-mail:</label>
+            <input type="email" name="email" id="imail" required placeholder="example@mail.com">
+        </p>
+
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" required pattern="\(\d{2}\)\d{4,5}-\d{4}" placeholder="(xx)xxxx-xxxx">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </fieldset>
+</body>
+
+</html>
