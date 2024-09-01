@@ -20,8 +20,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+span#burger {
+    background-color: rgb(48, 48, 48);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
