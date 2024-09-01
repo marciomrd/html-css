@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/query.css">
 </head>
-<body>
-        <header>
 
-            <h1>Meu Site</h1>
+<body onresize="sizeChange()">
 
-            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <header>
 
-            <menu id="items">
-                <ul>
-                    <li><a href="#">Opção 1</a></li>
-                    <li><a href="#">Opção 2</a></li>
-                    <li><a href="#">Opção 3</a></li>
-                    <li><a href="#">Opção 4</a></li>
-                    <li><a href="#">Opção 5</a></li>
-                </ul>
-            </menu>
+        <h1>Meu Site</h1>
 
-        </header>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
 
-        <main>
-            <article>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
 
-                <h2>Testando Media Queries</h2>
+    </header>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora, obcaecati, dicta numquam natus consequatur impedit eum aliquid vitae illo fugiat dignissimos explicabo. Obcaecati, dolores. Porro quae consectetur quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi enim architecto unde voluptatem animi beatae voluptas minima rerum cupiditate natus, reiciendis aliquam quod, expedita molestiae cumque? Sequi vero tempore quisquam!</p>
+    <main>
+        <article>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora, obcaecati, dicta numquam natus consequatur impedit eum aliquid vitae illo fugiat dignissimos explicabo. Obcaecati, dolores. Porro quae consectetur quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi enim architecto unde voluptatem animi beatae voluptas minima rerum cupiditate natus, reiciendis aliquam quod, expedita molestiae cumque? Sequi vero tempore quisquam!</p>
+            <h2>Testando Media Queries</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora, obcaecati, dicta numquam natus consequatur impedit eum aliquid vitae illo fugiat dignissimos explicabo. Obcaecati, dolores. Porro quae consectetur quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi enim architecto unde voluptatem animi beatae voluptas minima rerum cupiditate natus, reiciendis aliquam quod, expedita molestiae cumque? Sequi vero tempore quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora, obcaecati, dicta numquam
+                natus consequatur impedit eum aliquid vitae illo fugiat dignissimos explicabo. Obcaecati, dolores. Porro
+                quae consectetur quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi enim
+                architecto unde voluptatem animi beatae voluptas minima rerum cupiditate natus, reiciendis aliquam quod,
+                expedita molestiae cumque? Sequi vero tempore quisquam!</p>
 
-            </article>
-        </main>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora, obcaecati, dicta numquam
+                natus consequatur impedit eum aliquid vitae illo fugiat dignissimos explicabo. Obcaecati, dolores. Porro
+                quae consectetur quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi enim
+                architecto unde voluptatem animi beatae voluptas minima rerum cupiditate natus, reiciendis aliquam quod,
+                expedita molestiae cumque? Sequi vero tempore quisquam!</p>
 
-        <script>
-            function clickMenu() {
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora, obcaecati, dicta numquam
+                natus consequatur impedit eum aliquid vitae illo fugiat dignissimos explicabo. Obcaecati, dolores. Porro
+                quae consectetur quisquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi enim
+                architecto unde voluptatem animi beatae voluptas minima rerum cupiditate natus, reiciendis aliquam quod,
+                expedita molestiae cumque? Sequi vero tempore quisquam!</p>
 
-               if (items.style.display == "block") {
-                items.style.display = "none"
-               } 
-               else {
+        </article>
+    </main>
+
+    <script>
+
+        function sizeChange() {
+            if (window.innerWidth >= 768) {
                 items.style.display = "block"
-               }
-
             }
-        </script>
+            else {
+                items.style.display = "none"
+            }
+        }
+
+        function clickMenu() {
+
+            if (items.style.display == "block") {
+                items.style.display = "none"
+            }
+            else {
+                items.style.display = "block"
+            }
+
+        }
+
+    </script>
+
 </body>
+
 </html>
