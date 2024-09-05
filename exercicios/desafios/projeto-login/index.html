@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <main>
+
         <section id="login">
-            <picture id="imagem"></picture>
+
+            <picture id="imagem">
+                <img width="400px" src="images/bubbles.jpg" alt="Imagem de login">
+            </picture>
+
             <div id="formulario">
+
                 <h1>Login</h1>
+
                 <p>Seja bem vindo(a). Faça login para acessar sua conta e configurar seu ambiente.</p>
+
                 <form action="login.php" method="post">
 
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail">
+
+                    <br>
+
+                    <label for="ipass"></label>
+                    <input type="password" name="password" id="ipass">
+
+                    <br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="button" value="Esqueci minha senha">
                 </form>
+
             </div>
+
         </section>
+
     </main>
 </body>
+
 </html>

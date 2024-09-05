@@ -4,3 +4,24 @@
   Verde: #49a09d
   Roxo:  #5f2c82
 */
+
+:root {
+  --color1 : #5f2c82; 
+  --color2 : #49a09d;
+  --color3 : #000000;
+  --color4 : #ffffff; 
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color1);
+  width: 100vw;
+}
+
+main {
+  background-color: var(--color4);
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
