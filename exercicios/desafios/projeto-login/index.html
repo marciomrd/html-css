@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -25,18 +26,20 @@
 
                 <form action="login.php" method="post">
 
-                    <label for="iemail"></label>
-                    <input type="email" name="email" id="iemail">
+                    <div>
+                        <label for="iemail"> <span id="person" class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" max="30" required>
+                    </div>
 
-                    <br>
+                    <div>
+                        <label for="ipass"><span id="key" class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="password" id="ipass" placeholder="Sua senha" minlength="8" required>
+                    </div>
 
-                    <label for="ipass"></label>
-                    <input type="password" name="password" id="ipass">
-
-                    <br>
-
-                    <input type="submit" value="Enviar">
-                    <input type="button" value="Esqueci minha senha">
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="button" value="Esqueci minha senha">
+                    </div>
                     
                 </form>
 
