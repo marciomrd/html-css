@@ -25,24 +25,24 @@
 
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações do seu ambiente.</p>
 
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
 
-                    <div>
+                    <div id="campo">
                         <label for="iemail"> <span id="person" class="material-symbols-outlined">person</span></label>
 
-                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" max="30" required>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" maxlenght="30" autocomplete="email" required>
                     </div>
 
-                    <div>
-                        <label for="ipass"><span id="key" class="material-symbols-outlined">key</span></label>
+                    <div id="campo">
+                        <label for="ipass"><span id="key" class="material-symbols-outlined">vpn_key</span></label>
 
-                        <input type="password" name="password" id="ipass" placeholder="Sua senha" minlength="8" required>
+                        <input type="password" name="password" id="ipass" placeholder="Sua senha" minlength="8" maxlength="20" autocomplete="current-password" required>
                     </div>
 
                     <div>
                         <input type="submit" value="Enviar">
 
-                        <input type="button" value="Esqueci minha senha">
+                       <a href="">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                     </div>
                     
                 </form>
