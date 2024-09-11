@@ -44,6 +44,8 @@ section#login {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
   transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s;
+  transition-timing-function: ease;
 }
 
 section#login > picture#imagem {
