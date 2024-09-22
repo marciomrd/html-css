@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+div.container {
+    display: flex;
+    flex-flow: row nowrap;
+
+    background-color: lightsalmon;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+
+    text-align: center;
+}
+
+#item1 {
+    order: 0;
+}
+
+#item2 {
+    order: -1 ;
+}
+
+#item3 {
+    order:  4;
+}
+
+#item4 {
+    order: 5;
+}
+
+#item5 {
+    order: 6;
+}
+
+#item6 {
+    order: 0;
+}
