@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div.container {
+    display: flex;
+    flex-flow: row nowrap;
+
+    background-color: lightsalmon;
+}
+
+div.item {
+    flex-basis: 300px;
+
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div#iA {
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+div#iB {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+div#iC {
+    flex-shrink: 1;
+    flex-grow: 2;
+}
