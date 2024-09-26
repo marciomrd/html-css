@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div.container {
+    display: flex;
+    flex-flow: row nowrap;
+
+    background-color: lightsalmon;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div#iA {
+    /*flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 300px;*/
+
+    flex: 0 1 300px;
+}
+
+div#iB {
+    /*flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 300px;*/
+
+    flex: 1 1 300px ;
+}
+
+div#iC {
+    /*flex-shrink: 8;
+    flex-grow: 1;
+    flex-basis: auto;*/
+
+    flex: 8 1 auto;
+}
