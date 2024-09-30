@@ -8,16 +8,47 @@
 */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-html , body {
+body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #FAD9B4;
+
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
-    background-color: #00000071;
+    background-color: #A9CFA5;
+    color: white;
+
+    padding: 10px;
+}
+
+header > nav > a {
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+picture.image {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+picture#img1 {
+    background: url(../images/panda1.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+picture#img2 {
+    background: url(../images/panda2.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
