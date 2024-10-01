@@ -22,19 +22,66 @@ body {
 }
 
 header {
-    background-color: #A9CFA5;
-    color: white;
+    display: flex;
+    flex-flow: row wrap;
 
-    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px;
+    
+    background-color: green;
+    color: white;
+}
+
+header > h1 {
+    flex: 0 0 200px;
+}
+
+header > nav {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: flex-end;
 }
 
 header > nav > a {
+    margin: 5px;
+    padding: 10px;
+
+    background-color:  darkgreen;
+    color: white;
+
+    text-align: center;
     text-decoration: none;
+
+    border-radius: 5px;
+}
+
+header > nav > a:hover {
+    background-color:  #A9CFA5;
+    color: black;
+
+    transition: background-color 0.5s;
 }
 
 main {
     height: 100vh;
     width: 100vw;
+}
+
+section {
+    
+}
+
+section.content {
+    margin: 40px;
+    padding: 10px;
+}
+
+section.content > p {
+    margin: 5px;
+    text-align: justify;
 }
 
 picture.image {
