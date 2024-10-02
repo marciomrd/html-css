@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/*
-    #A9CFA5
-    #FAD9B4
-    #FFFFFF
-    #000000
-*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -36,6 +29,7 @@ header {
 
 header > h1 {
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.264);
 }
 
 header > nav {
@@ -70,13 +64,10 @@ main {
     width: 100vw;
 }
 
-section {
-    
-}
-
 section.content {
     margin: 40px;
-    padding: 10px;
+    padding: 0vh 10vh;
+    line-height: 2em;
 }
 
 section.content > p {
