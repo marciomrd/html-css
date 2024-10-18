@@ -3,9 +3,11 @@ Roteiro para Site One Page: "Viajando à Noite"
 Título: "Viajando à Noite: Descubra o Encanto do Crepúsculo"
 Subtítulo: "Aventuras Noturnas que Transformam Sua Viagem"
 Botão CTA: "Explore Destinos Noturnos"
+
 2. Seção 1: Introdução
 Texto: Uma breve introdução sobre a magia de viajar à noite, destacando a tranquilidade, as vistas deslumbrantes e a atmosfera única.
 Imagem de Fundo: Uma bela paisagem noturna, como uma cidade iluminada ou um campo sob estrelas.
+
 3. Seção 2: Benefícios de Viajar à Noite
 Título: "Por que Viajar à Noite?"
 Pontos de Destaque:
@@ -13,6 +15,7 @@ Menos trânsito e aglomeração.
 Experiências únicas (como observação de estrelas).
 Clima mais fresco em regiões quentes.
 Ícones Visuais: Representando cada benefício.
+
 4. Seção 3: Destinos Imperdíveis
 Título: "Destinos Noturnos Incríveis"
 Cards de Destinos:
@@ -20,6 +23,7 @@ Cidade A: Descrição breve e imagem.
 Cidade B: Descrição breve e imagem.
 Cidade C: Descrição breve e imagem.
 Botão CTA: "Descubra Mais Destinos"
+
 5. Seção 4: Dicas para Viagens Noturnas
 Título: "Dicas para uma Viagem Noturna Segura e Confortável"
 Lista de Dicas:
@@ -27,6 +31,7 @@ Planeje sua rota com antecedência.
 Verifique as condições do clima.
 Mantenha os documentos e objetos de valor seguros.
 Imagem de Apoio: Ilustração de um carro na estrada à noite.
+
 6. Seção 5: Experiências Noturnas
 Título: "O que Fazer à Noite"
 Sugestões:
@@ -34,13 +39,16 @@ Passeios a pé iluminados.
 Restaurantes com vista noturna.
 Festivais e eventos noturnos.
 Vídeo ou Slideshow: Mostrando essas experiências em ação.
+
 7. Seção 6: Depoimentos
 Título: "Histórias de Viajantes Noturnos"
 Citações de Viajantes: Curta e impactante, com nome e localização.
 Imagens de Viajantes em Ação: Fotos deles em destinos noturnos.
+
 8. Seção 7: Conclusão e Chamada à Ação
 Texto Final: Encorajamento para planejar a próxima viagem noturna e aproveitar o que o mundo tem a oferecer após o pôr do sol.
 Botão CTA: "Comece Sua Aventura Noturna Agora"
+
 9. Footer
 Links Úteis: Contato, Redes sociais, Termos de uso.
 Newsletter Signup: "Receba Dicas de Viagens Noturnas"
