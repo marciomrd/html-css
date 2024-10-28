@@ -3,8 +3,25 @@
 * {
     margin:  0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 20px;
+    background-color: lightgray;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header > picture > a > img {
+    width: 80px;
 }
