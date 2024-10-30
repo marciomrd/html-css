@@ -25,3 +25,25 @@ header a {
 header > picture > a > img {
     width: 80px;
 }
+
+main {
+    background-color: whitesmoke;
+}
+
+section.content{
+    margin: 10px;
+    padding: 40px;
+}
+
+section.content > h2 {
+    padding: 5px 0px;
+    text-align: justify;
+}
+
+section.content > p {
+    padding: 5px;
+    font-size: 1em;
+
+    text-indent: 5px;
+    line-height: 1.5;
+}
