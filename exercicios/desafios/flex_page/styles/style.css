@@ -18,8 +18,12 @@ header {
     background-color: lightgray;
 }
 
-header a {
+header > menu > a {
+    padding: 10px;
     text-decoration: none;
+
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 header > picture > a > img {
@@ -46,4 +50,14 @@ section.content > p {
 
     text-indent: 5px;
     line-height: 1.5;
+}
+footer {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
 }
