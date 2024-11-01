@@ -34,6 +34,35 @@ main {
     background-color: whitesmoke;
 }
 
+picture.image{
+    display: block;
+    padding: 200px;
+}
+
+picture.image > aside {
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+picture.image > aside > h1 {
+    color: white;
+    text-align: center;
+
+    padding: 5px;
+}
+
+picture#img1 {
+    background: url(../images/citynight.jpg) center center no-repeat fixed;
+   background-size: cover;
+}
+
+
+picture#img2 {
+    background: url(../images/auroranight.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
 section.content{
     margin: 10px;
     padding: 40px;
@@ -52,7 +81,6 @@ section.content > p {
     line-height: 1.5;
 }
 footer {
-    margin: 10px;
     padding: 10px;
     background-color: black;
 }
