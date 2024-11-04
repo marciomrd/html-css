@@ -15,10 +15,13 @@ header {
     flex-flow: row wrap;
 
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgb(47, 47, 139);
 }
 
 header > menu > a {
+    color: black;
+    background-color: rgb(84, 84, 173);
+
     padding: 10px;
     text-decoration: none;
 
@@ -31,7 +34,8 @@ header > picture > a > img {
 }
 
 main {
-    background-color: whitesmoke;
+    color: black;
+    background-color: rgb(47, 47, 139);
 }
 
 picture.image{
