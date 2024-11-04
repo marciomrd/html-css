@@ -19,14 +19,20 @@ header {
 }
 
 header > menu > a {
-    color: black;
-    background-color: rgb(84, 84, 173);
+    color: white;
+    background-color: rgb(47, 47, 139);
 
     padding: 10px;
     text-decoration: none;
 
-    border: 1px solid black;
     border-radius: 5px;
+}
+
+header > menu > a:hover {
+    color: yellow;
+    background-color: rgb(84, 84, 173);
+
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.266);
 }
 
 header > picture > a > img {
@@ -34,7 +40,7 @@ header > picture > a > img {
 }
 
 main {
-    color: black;
+    color: white;
     background-color: rgb(47, 47, 139);
 }
 
@@ -58,13 +64,24 @@ picture.image > aside > h1 {
 
 picture#img1 {
     background: url(../images/citynight.jpg) center center no-repeat fixed;
-   background-size: cover;
+    background-size: cover;
 }
 
 
 picture#img2 {
     background: url(../images/auroranight.jpg) center center no-repeat fixed;
     background-size: cover;
+}
+
+picture#img2 > aside {
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+}
+
+picture#img2 > aside > p {
+    text-align: justify;
+    line-height: 1.5em;
 }
 
 section.content{
