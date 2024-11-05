@@ -14,6 +14,9 @@ header {
     display: flex;
     flex-flow: row wrap;
 
+    justify-content: space-between;
+    align-items: center;
+
     padding: 20px;
     background-color: rgb(47, 47, 139);
 }
@@ -69,19 +72,26 @@ picture#img1 {
 
 
 picture#img2 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+    align-items: center;
+
     background: url(../images/auroranight.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 picture#img2 > aside {
-    width: 500px;
+    flex: auto;
+    width: 400px;
     padding: 50px;
-    margin: 50px;
+    margin: 25px;
 }
 
 picture#img2 > aside > p {
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1em;
 }
 
 section.content{
