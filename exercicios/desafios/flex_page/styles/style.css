@@ -38,7 +38,7 @@ header > menu > a:hover {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.266);
 }
 
-header > picture > a > img {
+header > picture > a > abbr > img {
     width: 80px;
 }
 
@@ -54,7 +54,7 @@ picture.image{
 
 picture.image > aside {
     margin: auto;
-    padding: 25px;
+    padding: 15px;
     background-color: rgba(0, 0, 0, 0.397);
 }
 
