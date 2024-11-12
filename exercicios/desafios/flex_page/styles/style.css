@@ -55,6 +55,8 @@ picture.image{
 picture.image > aside {
     margin: auto;
     padding: 15px;
+
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.397);
 }
 
