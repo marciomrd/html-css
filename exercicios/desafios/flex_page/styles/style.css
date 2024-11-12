@@ -39,7 +39,7 @@ header > menu > a:hover {
 }
 
 header > picture > a > abbr > img {
-    width: 80px;
+    width: 60px;
 }
 
 main {
@@ -73,7 +73,7 @@ picture#img1 {
 
 picture#img2 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ picture#img2 {
 
 picture#img2 > aside {
     flex: auto;
-    width: 400px;
+    width: 300px;
     padding: 50px;
     margin: 25px;
 }
