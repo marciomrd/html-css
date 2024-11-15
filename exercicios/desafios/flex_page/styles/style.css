@@ -84,16 +84,18 @@ picture#img2 {
     background-size: cover;
 }
 
-picture#img2 > aside {
+picture#img2  aside {
     flex: auto;
     width: 300px;
-    padding: 50px;
+
     margin: 25px;
+    padding: 50px;
 }
 
-picture#img2 > aside > p {
-    text-align: justify;
-    line-height: 1em;
+picture#img2 > aside  p {
+    text-align: center;
+    font-size: 1vw;
+    line-height: 1.5em;
 }
 
 section.content{
