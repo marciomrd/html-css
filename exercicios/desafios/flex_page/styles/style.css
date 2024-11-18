@@ -26,9 +26,9 @@ header > menu > a {
     background-color: rgb(47, 47, 139);
 
     padding: 10px;
-    text-decoration: none;
-
     border-radius: 5px;
+    
+    text-decoration: none;
 }
 
 header > menu > a:hover {
