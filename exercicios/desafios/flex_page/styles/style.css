@@ -85,7 +85,7 @@ picture#img2 {
 }
 
 picture#img2  aside {
-    flex: auto;
+    flex: content;
     width: 300px;
 
     margin: 25px;
@@ -94,7 +94,7 @@ picture#img2  aside {
 
 picture#img2 > aside  p {
     text-align: center;
-    font-size: 1vw;
+    font-size: 1em;
     line-height: 1.5em;
 }
 
