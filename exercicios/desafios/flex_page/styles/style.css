@@ -78,14 +78,14 @@ picture#img2 {
     flex-flow: row wrap;
 
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 
     background: url(../images/auroranight.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 picture#img2  aside {
-    flex: content;
+    flex: auto;
     width: 300px;
 
     margin: 25px;
