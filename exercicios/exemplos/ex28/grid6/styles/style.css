@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr) ;
+    place-items: center center;
+    place-content: center center;
+}
+
+.box1 {
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.box2 {
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.box3 {
+   grid-area: 2 / 3 / 4 / 5;
+}
